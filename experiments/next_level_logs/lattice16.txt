@@ -1,0 +1,10 @@
+levels=2   K=6 mix=0 D=0.70 T=0.40  bytes=16777216  total=4352873 bytes (2.0756 bpc)  digits=192012  other=4160861
+levels=1   K=6 mix=0 D=0.70 T=0.40  bytes=16777216  total=4246922 bytes (2.0251 bpc)  digits=190932  other=4055990
+levels=0   K=6 mix=0 D=0.70 T=0.40  bytes=16777216  total=4277521 bytes (2.0397 bpc)  digits=189035  other=4088486
+levels=01  K=6 mix=0 D=0.70 T=0.40  bytes=16777216  total=4311224 bytes (2.0558 bpc)  digits=184014  other=4127210
+levels=0   K=6 mix=1 D=0.70 T=0.40  bytes=16777216  total=3978782 bytes (1.8972 bpc)  digits=172267  other=3806515
+levels=2   K=6 mix=1 D=0.70 T=0.40  bytes=16777216  total=4049251 bytes (1.9308 bpc)  digits=178857  other=3870394
+levels=1   K=6 mix=1 D=0.70 T=0.40  bytes=16777216  total=3957785 bytes (1.8872 bpc)  digits=178105  other=3779680
+levels=012 K=6 mix=0 D=0.70 T=0.40  bytes=16777216  total=4391906 bytes (2.0942 bpc)  digits=187066  other=4204840
+levels=01  K=6 mix=1 D=0.70 T=0.40  bytes=16777216  total=3923130 bytes (1.8707 bpc)  digits=166439  other=3756691
+levels=012 K=6 mix=1 D=0.70 T=0.40  bytes=16777216  total=3920873 bytes (1.8696 bpc)  digits=166527  other=3754346

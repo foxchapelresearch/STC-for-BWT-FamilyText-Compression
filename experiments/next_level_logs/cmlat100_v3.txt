@@ -1,0 +1,4 @@
+TB25 levels=2   bytes=100000000  total=20660795 bytes (1.6529 bpc)  digits=867198  other=19793597
+TB25 levels=1   bytes=100000000  total=20334826 bytes (1.6268 bpc)  digits=865513  other=19469314
+TB25 levels=0   bytes=100000000  total=20495184 bytes (1.6396 bpc)  digits=822326  other=19672858
+TB24 dedup levels=01  bytes=100000000  total=20566039 bytes (1.6453 bpc)  digits=803983  other=19762057

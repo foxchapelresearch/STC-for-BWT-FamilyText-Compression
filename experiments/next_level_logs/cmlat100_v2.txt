@@ -1,0 +1,5 @@
+big   levels=1   bytes=100000000  total=20584334 bytes (1.6467 bpc)  digits=868872  other=19715462
+big   levels=0   bytes=100000000  total=20768114 bytes (1.6614 bpc)  digits=828574  other=19939540
+dedup levels=01  bytes=100000000  total=20301276 bytes (1.6241 bpc)  digits=799294  other=19501982
+dedup levels=012 bytes=100000000  total=20305460 bytes (1.6244 bpc)  digits=799465  other=19505995
+big   levels=01  bytes=100000000  total=20706635 bytes (1.6565 bpc)  digits=806417  other=19900218

@@ -1,0 +1,143 @@
+nodes 1..1  K=4  bytes=100000000  start: code length 3305758 bytes, fit 3031133 bytes
+  1. ΔL       -67 bytes (fit        -0)  proposal #55  [xE4] + [xE5]
+  2. ΔL      -144 bytes (fit        +1)  proposal #51  [xE4xE5] + [xE6]
+  3. ΔL      -154 bytes (fit        +0)  proposal #47  [xE4xE5xE6] + [xE7]
+  4. ΔL      -152 bytes (fit        +1)  proposal #43  [xE4xE5xE6xE7] + [xE8]
+  5. ΔL      -125 bytes (fit        +1)  proposal #39  [xE4xE5xE6xE7xE8] + [xE9]
+  6. ΔL       -90 bytes (fit        +3)  proposal #28  [xE3] + [xE4xE5xE6xE7xE8xE9]
+  7. ΔL       -76 bytes (fit        +6)  proposal #3   [xE0] + [xE3xE4xE5xE6xE7xE8xE9]
+  8. ΔL       -80 bytes (fit        +3)  proposal #1   [xE0xE3xE4xE5xE6xE7xE8xE9] + [xE1]
+  9. ΔL       -63 bytes (fit        +0)  proposal #19  [xEB] + [xEC]
+ 10. ΔL       -79 bytes (fit        +5)  proposal #3   [xE0xE1xE3xE4xE5xE6xE7xE8xE9] + [xEBxEC]
+ 11. ΔL       -76 bytes (fit        +1)  proposal #3   [xE0xE1xE3xE4xE5xE6xE7xE8xE9xEBxEC] + [xED]
+ 12. ΔL       -56 bytes (fit        +4)  proposal #1   [xE0xE1xE3xE4xE5xE6xE7xE8xE9xEBxECxED] + [xE2]
+ 13. ΔL      -116 bytes (fit        -0)  proposal #57  [xD8] + [xD9]
+ 14. ΔL       -48 bytes (fit       +11)  proposal #54  [xD1] + [xD8xD9]
+ 15. ΔL       -74 bytes (fit       +58)  proposal #60  [xC4] + [xC5]
+ 16. ΔL       -54 bytes (fit       +22)  proposal #57  [x85] + [x8E]
+ 17. ΔL       -47 bytes (fit        +1)  proposal #1   [xE0xE1xE2xE3xE4xE5xE6xE7xE8xE9xEBxECxED] + [xEA]
+ 18. ΔL       -72 bytes (fit       +19)  proposal #59  [xAC] + [xB7]
+ 19. ΔL       -37 bytes (fit        +2)  proposal #27  [xD1xD8xD9] + [xDA]
+ 20. ΔL       -15 bytes (fit        +8)  proposal #59  [xD0] + [xD6]
+ 21. ΔL       -19 bytes (fit        +1)  proposal #60  [xD2] + [xD3]
+ 22. ΔL       -11 bytes (fit        +0)  proposal #1   [xE0xE1xE2xE3xE4xE5xE6xE7xE8xE9xEAxEBxECxED] + [xEF]
+ 23. ΔL        -8 bytes (fit        +7)  proposal #13  [xC9] + [xCC]
+ 24. ΔL       -57 bytes (fit        +7)  proposal #58  [x9A] + [x9E]
+ 25. ΔL        -6 bytes (fit        +5)  proposal #32  [xC2] + [xD2xD3]
+ 26. ΔL      -108 bytes (fit       +22)  proposal #60  [xB5] + [xBF]
+ 27. ΔL        -7 bytes (fit        +2)  proposal #60  [xC4xC5] + [xC7]
+ 28. ΔL      -192 bytes (fit       +45)  proposal #59  [xCE] + [xD0xD6]
+ 29. ΔL       -11 bytes (fit       +23)  proposal #55  [*] + [@]
+ 30. ΔL       -74 bytes (fit       +11)  proposal #59  [x8A] + [x96]
+ 31. ΔL        -4 bytes (fit        +0)  proposal #32  [xC9xCC] + [xCD]
+ 32. ΔL       -70 bytes (fit       +12)  proposal #57  [x9B] + [xA5]
+ 33. ΔL       -63 bytes (fit       +11)  proposal #52  [x8C] + [x98]
+ 34. ΔL        -3 bytes (fit        +2)  proposal #24  [xC6] + [xC9xCCxCD]
+ 35. ΔL       -91 bytes (fit       +12)  proposal #60  [xA7] + [xB4]
+ 36. ΔL       -14 bytes (fit        +6)  proposal #60  [xCA] + [xCB]
+ 37. ΔL        -9 bytes (fit        +1)  proposal #59  [xC3] + [xD4]
+ 38. ΔL        -2 bytes (fit        +0)  proposal #40  [xC8] + [xD1xD8xD9xDA]
+ 39. ΔL      -120 bytes (fit       +22)  proposal #46  [x90] + [x91]
+ 40. ΔL       -88 bytes (fit       +28)  proposal #57  [xC8xD1xD8xD9xDA] + [xD7]
+ 41. ΔL     -3314 bytes (fit     +1611)  proposal #59  [6] + [7]
+ 42. ΔL       -55 bytes (fit       +13)  proposal #53  [x92] + [xB2]
+ 43. ΔL       -75 bytes (fit       +21)  proposal #60  [x99] + [xA3]
+ 44. ΔL       -47 bytes (fit       +33)  proposal #42  [x87] + [xA0]
+ 45. ΔL       -15 bytes (fit        +1)  proposal #54  [xC8xD1xD7xD8xD9xDA] + [xD5]
+ 46. ΔL       -89 bytes (fit       +17)  proposal #58  [x88] + [x8B]
+ 47. ΔL       -11 bytes (fit       +38)  proposal #53  [(] + [`]
+ 48. ΔL      -162 bytes (fit       +36)  proposal #60  [x84] + [xA7xB4]
+ 49. ΔL        -5 bytes (fit       +86)  proposal #47  [x] + [~]
+ 50. ΔL      -107 bytes (fit       +27)  proposal #58  [x8Ax96] + [xAF]
+ 51. ΔL      -123 bytes (fit       +29)  proposal #59  [xBD] + [xBE]
+ 52. ΔL     -2081 bytes (fit     +3509)  proposal #60  [3] + [67]
+ 53. ΔL       -52 bytes (fit       +30)  proposal #59  [x8D] + [x9F]
+ 54. ΔL        -2 bytes (fit        +0)  proposal #7   [xC8xD1xD5xD7xD8xD9xDA] + [xDE]
+ 55. ΔL      -200 bytes (fit       +34)  proposal #52  [xC8xD1xD5xD7xD8xD9xDAxDE] + [xCF]
+ 56. ΔL       -51 bytes (fit        +6)  proposal #37  [xC8xCFxD1xD5xD7xD8xD9xDAxDE] + [xDB]
+ 57. ΔL        -2 bytes (fit        +0)  proposal #2   [xC8xCFxD1xD5xD7xD8xD9xDAxDBxDE] + [xDC]
+ 58. ΔL     -3270 bytes (fit     +2341)  proposal #45  [367] + [4]
+ 59. ΔL      -241 bytes (fit       +63)  proposal #34  [x81] + [x84xA7xB4]
+ 60. ΔL      -217 bytes (fit       +40)  proposal #26  [x81x84xA7xB4] + [x86]
+ 61. ΔL      -202 bytes (fit       +44)  proposal #24  [x85x8E] + [x88x8B]
+ 62. ΔL      -173 bytes (fit       +63)  proposal #59  [x92xB2] + [xACxB7]
+ 63. ΔL      -208 bytes (fit       +66)  proposal #59  [xA4] + [xA6]
+ 64. ΔL      -154 bytes (fit       +33)  proposal #20  [x90x91] + [xBDxBE]
+ 65. ΔL      -203 bytes (fit       +72)  proposal #59  [x87xA0] + [x8Cx98]
+ 66. ΔL      -186 bytes (fit       +68)  proposal #54  [x87x8Cx98xA0] + [xAA]
+ 67. ΔL      -117 bytes (fit      +240)  proposal #22  [Q] + [V]
+ 68. ΔL      -117 bytes (fit       +33)  proposal #22  [xA2] + [xA8]
+ 69. ΔL      -112 bytes (fit       +14)  proposal #37  [x82] + [xAE]
+ 70. ΔL      -134 bytes (fit       +31)  proposal #59  [x8Dx9F] + [x9C]
+ 71. ΔL      -125 bytes (fit       +69)  proposal #57  [x8Dx9Cx9F] + [xAB]
+ 72. ΔL      -113 bytes (fit      +518)  proposal #56  [K] + [Y]
+ 73. ΔL      -211 bytes (fit       +61)  proposal #60  [x92xACxB2xB7] + [xB1]
+ 74. ΔL      -101 bytes (fit       +22)  proposal #28  [x9Ax9E] + [xBB]
+ 75. ΔL       -93 bytes (fit      +148)  proposal #38  [$] + [9]
+ 76. ΔL       -86 bytes (fit     +1166)  proposal #51  [N] + [O]
+ 77. ΔL      -158 bytes (fit     +1040)  proposal #60  [J] + [R]
+ 78. ΔL      -200 bytes (fit       +36)  proposal #60  [x95] + [x9Ax9ExBB]
+ 79. ΔL       -83 bytes (fit       +44)  proposal #37  [xC6xC9xCCxCD] + [xCAxCB]
+ 80. ΔL        -0 bytes (fit        -0)  proposal #47  [x90x91xBDxBE] + [xF0]
+ 81. ΔL     -1441 bytes (fit     +2405)  proposal #60  [2] + [8]
+ 82. ΔL      -652 bytes (fit      +120)  proposal #58  [xC8xCFxD1xD5xD7xD8xD9xDAxDBxDCxDE] + [xCExD0xD6]
+ 83. ΔL      -346 bytes (fit       +91)  proposal #40  [x85x88x8Bx8E] + [x8Ax96xAF]
+ 84. ΔL      -253 bytes (fit       +94)  proposal #50  [x90x91xBDxBExF0] + [xB5xBF]
+ 85. ΔL      -249 bytes (fit       +90)  proposal #58  [x9BxA5] + [xA4xA6]
+ 86. ΔL      -218 bytes (fit     +1814)  proposal #54  [E] + [T]
+ 87. ΔL      -201 bytes (fit      +125)  proposal #32  [x81x84x86xA7xB4] + [xBA]
+ 88. ΔL      -186 bytes (fit      +113)  proposal #57  [x8Dx9Cx9FxAB] + [xBC]
+ 89. ΔL      -150 bytes (fit      +174)  proposal #44  [xA1] + [xAD]
+ 90. ΔL      -132 bytes (fit       +75)  proposal #45  [x93] + [x94]
+ 91. ΔL      -336 bytes (fit      +322)  proposal #60  [xC3xD4] + [xC4xC5xC7]
+ 92. ΔL      -131 bytes (fit      +553)  proposal #42  [!] + [.]
+ 93. ΔL     -2444 bytes (fit     +2203)  proposal #59  [3467] + [5]
+ 94. ΔL      -268 bytes (fit      +137)  proposal #58  [x87x8Cx98xA0xAA] + [xB0]
+ 95. ΔL      -149 bytes (fit       +68)  proposal #60  [x82xAE] + [xB9]
+ 96. ΔL       -89 bytes (fit      +145)  proposal #60  [xA9] + [xB6]
+ 97. ΔL       -24 bytes (fit       +21)  proposal #52  [TAB] + [>]
+ 98. ΔL       -36 bytes (fit      +502)  proposal #60  [NO] + [_]
+ 99. ΔL      -161 bytes (fit       +74)  proposal #56  [x89] + [x9BxA4xA5xA6]
+100. ΔL      -299 bytes (fit      +109)  proposal #60  [x82xAExB9] + [xB8]
+101. ΔL      -246 bytes (fit      +190)  proposal #59  [x8Dx9Cx9FxABxBC] + [xB3]
+102. ΔL      -146 bytes (fit       +61)  proposal #55  [x89x9BxA4xA5xA6] + [x8F]
+103. ΔL       -94 bytes (fit       +26)  proposal #58  [x97] + [x9D]
+104. ΔL        -0 bytes (fit        +1)  proposal #33  ["] + [?]
+105. ΔL       -22 bytes (fit      +305)  proposal #59  [;] + [X]
+final: code length 3282009 bytes (-23749), fit 3053018 bytes (+21885), 105 merges, 100 classes
+multi-member classes:
+  {TAB>}
+  {!.}
+  {"?}
+  {$9}
+  {(`}
+  {*@}
+  {28}
+  {34567}
+  {;X}
+  {ET}
+  {JR}
+  {KY}
+  {NO_}
+  {QV}
+  {x~}
+  {x81x84x86xA7xB4xBA}
+  {x82xAExB8xB9}
+  {x85x88x8Ax8Bx8Ex96xAF}
+  {x87x8Cx98xA0xAAxB0}
+  {x89x8Fx9BxA4xA5xA6}
+  {x8Dx9Cx9FxABxB3xBC}
+  {x90x91xB5xBDxBExBFxF0}
+  {x92xACxB1xB2xB7}
+  {x93x94}
+  {x95x9Ax9ExBB}
+  {x97x9D}
+  {x99xA3}
+  {xA1xAD}
+  {xA2xA8}
+  {xA9xB6}
+  {xC2xD2xD3}
+  {xC3xC4xC5xC7xD4}
+  {xC6xC9xCAxCBxCCxCD}
+  {xC8xCExCFxD0xD1xD5xD6xD7xD8xD9xDAxDBxDCxDE}
+  {xE0xE1xE2xE3xE4xE5xE6xE7xE8xE9xEAxEBxECxEDxEF}

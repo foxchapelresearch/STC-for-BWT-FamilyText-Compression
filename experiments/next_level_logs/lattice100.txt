@@ -1,0 +1,3 @@
+levels=1   K=6 mix=1 D=0.70 T=0.40  bytes=100000000  total=22702506 bytes (1.8162 bpc)  digits=958099  other=21744407
+levels=0   K=6 mix=1 D=0.70 T=0.40  bytes=100000000  total=22785397 bytes (1.8228 bpc)  digits=908092  other=21877305
+levels=012 K=6 mix=1 D=0.70 T=0.40  bytes=100000000  total=22600998 bytes (1.8081 bpc)  digits=893220  other=21707778

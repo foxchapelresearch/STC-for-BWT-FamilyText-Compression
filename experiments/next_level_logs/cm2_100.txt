@@ -1,0 +1,4 @@
+levels=1   bytes=100000000  total=19297195 bytes (1.5438 bpc)  digits=802281  other=18494913
+levels=0   bytes=100000000  total=19457552 bytes (1.5566 bpc)  digits=776516  other=18681036
+levels=01  bytes=100000000  total=19266052 bytes (1.5413 bpc)  digits=748011  other=18518041
+levels=012 bytes=100000000  total=19276371 bytes (1.5421 bpc)  digits=750320  other=18526051

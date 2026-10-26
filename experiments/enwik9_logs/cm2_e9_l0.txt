@@ -1,0 +1,1 @@
+levels=0   bytes=1000000000  total=157582526 bytes (1.2607 bpc)  digits=10006643  other=147575884

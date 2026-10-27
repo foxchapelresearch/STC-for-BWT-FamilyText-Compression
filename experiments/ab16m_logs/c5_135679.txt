@@ -1,0 +1,1 @@
+levels=01  F=135679 bytes=16777216  total=3297507 bytes (1.5724 bpc)  digits=137012  other=3160495

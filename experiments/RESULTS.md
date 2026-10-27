@@ -220,3 +220,35 @@ Masked contexts also help the text, because they let templates with differing nu
 The literal coder alone roughly matches all of STC: 194 KB behind the archive, and level with archive + decoder.
 The lattice beats STC by 2.08 MB.
 Caveat: these are ideal code lengths only, not a round-tripped encoder and decoder.
+
+## Pushing further: `cm3`–`cm7` (feature-flagged A/B tests on enwik8_16m, then full enwik8)
+
+Each feature was tested alone on 16 MB with levels 01. Logs are in `ab16m_logs/`. Bytes saved are relative to the build without that feature:
+
+| Feature (bit) | Bytes saved on 16 MB |
+|---|---|
+| mixer weight set chosen by the previous byte (16) | 24.4K |
+| mixer weight set chosen by word length × byte class × match bucket (128) | 15.3K |
+| case-folded word contexts (32768) | 15.3K |
+| indirect contexts: bytes that followed this order-1/order-2 context last time (256) | 14.9K |
+| text contexts: sparse, column, markup, three-word (4) | 12.0K |
+| run input per context (64) | 11.6K |
+| second, slow direct probability per slot (262144) | 22K |
+| 8-way 64-byte buckets with 16-bit checks, evict least-visited (1048576) | 17K at 2^27 slots, 7K at 2^29 |
+| larger table: 2^29 slots instead of 2^27 | 34K |
+| mixer weight set chosen by the byte two back; lower learning-rate floor; order-3 APM; sparse 2; learned final mixer | 2–6K each |
+| no gain: match-state APM, learned APM blend, higher learning rate, gentler history discount, chained SSE, orders 7/10/32, StateMap/APM rates | ≤1K or worse |
+
+16 MB totals: the cm2-equivalent build came to 3,416,592 bytes, and the best `cm7` build to 3,211,817 (−6.0%).
+
+Full enwik8 run: `cm7` built with `-DTB=29 -DORDSET=1 -DSMLIM=255`, features 1499647. These are ideal code lengths.
+
+| Coder | enwik8 bytes |
+|---|---|
+| `bsc-m03` | 20,263,925 |
+| STC | 19,996,028 |
+| `cm2` lattice 01 (previous best) | 19,266,052 |
+| **`cm7` literal (level 0)** | **17,824,686** |
+| **`cm7` lattice 01** | **17,710,593** |
+
+On full enwik8, `cm7` lattice 01 is 8.1% smaller than `cm2` and 11.4% smaller than STC. The literal coder alone is 12.0% smaller than M03. The digit lattice is still worth 114 KB on top of the literal coder.

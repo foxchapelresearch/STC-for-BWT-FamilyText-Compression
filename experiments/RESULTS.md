@@ -252,3 +252,17 @@ Full enwik8 run: `cm7` built with `-DTB=29 -DORDSET=1 -DSMLIM=255`, features 149
 | **`cm7` lattice 01** | **17,710,593** |
 
 On full enwik8, `cm7` lattice 01 is 8.1% smaller than `cm2` and 11.4% smaller than STC. The literal coder alone is 12.0% smaller than M03. The digit lattice is still worth 114 KB on top of the literal coder.
+
+### `cm7` on enwik9 (same build as the enwik8 run: 2^29 slots, 4 GB table; ideal code length, no decoder counted)
+
+| Coder | enwik9 bytes | vs STC |
+|---|---|---|
+| `bsc-m03` 0.5.5 | 160,364,392 | +1.9% |
+| STC (archive) | 157,388,188 | — |
+| `cm2` literal | 157,582,526 | +0.1% |
+| `cm2` lattice 01 | 155,305,085 | −1.3% |
+| **`cm7` literal (level 0)** | **144,524,953** | **−8.2%** |
+| **`cm7` lattice 01** | **143,237,069** | **−9.0%** |
+
+The `cm7` literal coder is 9.9% smaller than M03 like-for-like. The digit lattice adds a further 1.29 MB. Digit bytes go from 9,340,032 to 9,100,490 (−2.6%) and the rest from 135,184,925 to 134,136,583 (−0.8%).
+Both runs used 2^29 slots, which is probably table-limited at 1 GB of input. On the 16 MB slice, 2^27 → 2^29 slots was still worth 0.7–1%.
